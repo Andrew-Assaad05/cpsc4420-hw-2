@@ -1,0 +1,9 @@
+Environment: Taxi-v4
+Episodes per training run: 3000
+Baseline: alpha=0.5, gamma=0.99, epsilon=1.0
+Epsilon decay=0.997, minimum epsilon=0.05
+Evaluation episodes: 100
+
+Baseline results: {'mean_reward': 8.03, 'success_rate': 1.0, 'mean_steps': 12.97}
+Best configuration: alpha=0.1
+Best results: {'mean_reward': 8.05, 'success_rate': 1.0, 'mean_steps': 12.95}
